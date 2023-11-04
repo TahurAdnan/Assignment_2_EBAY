@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.navbar a{
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  border: 10px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  background-color: beige;
+  border-radius: 10px;
+}
+
+.Facewashintro {
+  padding: 20px;
+  border: solid #333;
+  background-color: bisque;
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: 10px;
+  box-shadow: 4px 4px;
+}
+
+.TypesOfFacewashes{
+  padding: 20px;
+  border: solid #333;
+  background-color: rgb(156, 243, 243);
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: 20px;
+  box-shadow: 2px 2px;
+
+}
+.benefitsofF {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #dadada;
+  box-shadow: 2px 2px;
+  
+  
+}
+.BOF{
+  padding: auto;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: solid purple;
+  width: fit-content;
+  background-color: aliceblue;
+  box-shadow: 2px 2px;
+}
+
+.main{
+  display: flex;
+  justify-content:center;
+  
+}
+
+
+.product{
+  border: solid purple;
+  box-shadow: 4px 4px 4px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.button{
+  background-color: purple;
+  padding: 6px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+
+}
+.PurchaseOption{
+  border: solid ;
+  width: fit-content;
+  padding: 10px;
+  background-color: rgb(209, 209, 202);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+h1{
+  margin: 20px;
+}
+.HomePageP{
+  margin-left: 5px;
+  border: solid rgb(46, 176, 223);
+  box-shadow: 4px 4px 4px;
+  border-radius: 10px;
+}
